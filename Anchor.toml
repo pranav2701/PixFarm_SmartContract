@@ -1,0 +1,13 @@
+[programs.devnet]
+myepicproject = "CmKwdS7AEeFY8p21X9UEHao8CPK6B6JgwSzeGFdafRSG"
+
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/pranav/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
